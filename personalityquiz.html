@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Rebekah Hughes</title>
+    <meta charset="utf-8" />
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	  <!-- link the webpage's stylesheet -->
+	  <link rel="stylesheet" href="/style.css" />
+
+    <!-- link the google fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schoolbell&display=swap" rel="stylesheet">
+
+	  <!-- link the webpage's JavaScript file -->
+	  <script src="/personalityquiz.js" defer></script>
+
+    
+
+  </head>
+  
+  <body>
+
+    <!-- navbar -->
+    <nav id="navbar">
+      <ul id="navUL">
+        <li id="navLI">
+          <a href="index.html">Home</a>
+        </li>
+        <li id="navLI">
+          <a href="takeaction.html">Take Action</a>
+        </li>
+        <li id="navLI">
+          <a href="personalityquiz.html">Personality Quiz</a>
+        </li>
+      </ul>
+    </nav>
+
+    <h1> Which healthy meal should I make?</h1>
+
+    
+
+<br>
+<!-- eatwell guide -->
+    
+
+<!-- healthy recipe personality quiz -->
+    <div class="main" id="section1">
+		<h2>Which seasons do you prefer?</h2>
+		<div class="question">
+
+			<div class="answer-choice">
+				<img src="assets/summer.jpg" alt="Woman sat in the middle of a sunny field on a picnic blanket surrounded by trees">
+        <br>
+        <button id="q1a1" onclick="myFunction1()">Spring/Summer</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/winter.jpg" alt="Snowy sunrise reflected in a lake with trees">
+        <br>
+        <button id="q1a2" onclick="myFunction1()">Autumn/Winter</button>
+      </div>
+
+    </div> 
+</div>
+
+<div class="main" id="section2">    
+    <h2>Where would you prefer to live</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/cabin.jpg" alt="Triangular cabin in the woods surrounded by trees">
+        <br>
+        <button id="q2a1" onclick="myFunction2()">Cabin in the forest</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/beach house.jpg" alt="Wooden beach house at dusk overlooking the sea">
+        <br>
+        <button id="q2a2" onclick="myFunction2()">Beach House</button>
+      </div>
+
+    </div> 
+</div>
+
+<div class="main" id="section3">
+    <h2>What would you prefer to do?</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/friends.jpg" alt="Four young happy people pose in a street with palm trees in the background">
+        <br>
+        <button id="q3a1" onclick="myFunction3()">Go out with friends</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/reading.jpg" alt="An open book on a table surrounded by leaves, pencils, coffee mug and other closed books">
+        <br>
+        <button id="q3a2" onclick="myFunction3()">Read a book</button>
+      </div>
+
+    </div> 
+</div>
+
+<div class="main" id="section4">
+     <h2>What is your drink of choice?</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/hotchocolate.jpg" alt="Two blue mugs of hot chocolate with marshmallows and macarons on a blue cloth on a wooden table">
+        <br>
+        <button id="q4a1" onclick="myFunction4()">Hot chocolate</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/lemonade.jpg" alt="Tall glass of lemonade with a blue striped straw and slices of lemon">
+        <br>
+        <button id="q4a2" onclick="myFunction4()">Lemonade</button>
+      </div>
+
+    </div> 
+</div>
+
+<div class="main" id="section5">
+     <h2>Choose a music genre</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/pop.jpg" alt="A microphone with lights in the background">
+        <br>
+        <button id="q5a1" onclick="myFunction5()">Pop</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/classical.jpg" alt="A violin lying on sheet music">
+        <br>
+        <button id="q5a2" onclick="myFunction5()">Classical</button>
+      </div>
+
+    </div> 
+</div>
+    
+    <div class="main" id="section6">
+      <button id="displayResult">What kind of person am I?</button>
+    
+
+      <!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2 id="result">You are... </h2>
+    <p id="description"> </p>
+  </div>
+</div>
+    </div>
+    <br>
+    <div>
+    <button id="restart" onclick="myFunction6()">Restart</button>
+    </div>
+
+  </body>
+</html>
