@@ -1,0 +1,449 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-image: url(assets/bg.jpg); 
+}
+
+@media screen and (max-width: 850px;){
+  .flexboxContainer{
+    flex-wrap: wrap;
+  }
+}
+
+
+
+/* STYLE HEADING */
+
+h1 {
+  color:palegreen;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 50px;
+  font-family: 'Zen Tokyo Zoo', cursive;
+  letter-spacing: 3px;
+  background-color: #800020;
+  padding: 40px;
+  text-shadow: 6px 6px #214127;
+  margin: auto;
+  margin-top: 60px;
+}
+
+/*STYLE H2 */
+h2 {
+  color: #214127;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Schoolbell', cursive;
+  background-color: #BAE6AC;
+  padding: 5px;
+}
+
+/* STYLE IMAGES */
+#eatwellImage {
+ margin-top: 30px;
+  width: 400px;
+  border-style: dashed;
+  border-width: 5px;
+  border-color: purple;
+  padding: 10px;
+  /* border-radius: 30px; */
+  background-color: skyblue;
+}
+
+/* STYLE NAV BAR */
+#navUL {
+  list-style-type: none;
+  background-color: #86A5D9;
+  overflow: hidden;
+  padding: 1em;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#navLI {
+  display: inline;
+}
+
+#navLI a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.3em;
+  padding: 1em;
+}
+
+#navLI a:hover {
+  background-color: #43D6B9;
+}
+
+/* STYLE TEXT */
+#fact {
+  text-align: center;
+  color: black;
+  font-family: 'Chilanka', cursive;
+  font-size: 20px;
+  background-color: #BAE6AC;
+}
+
+/* STYLE BUTTONS */
+#myBtn {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 24px;
+  font-family: 'Chilanka', cursive;
+  background-color: #79FF79;
+  color: #850060;
+  font-weight: bold;
+}
+
+
+/* STYLE CAROUSEL */
+.carousel-inner {
+    width: 100%; 
+    height: 100%;
+    max-width: 500px; 
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: -5;
+}
+
+.carousel-indicators { 
+    max-width: 300px; 
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* STYLE TEXT */
+h5 {
+  text-align: center;
+  color: #214127;
+  background-color: #BAE6AC;
+  font-family: 'Chilanka', cursive;
+}
+
+/*STYLE EATWELL IMAGE */
+#eatwell {
+  text-align: center;
+  color: #214127;
+  font-family: 'Chilanka', cursive;
+  display: block;
+  margin-top: 50px;
+  font-size: 20px;
+  background-color: #ddf0d7;
+}
+
+/* STYLE FLEX*/
+.flexboxContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flexItem{
+  flex-basis: 100%;
+  text-align: center;
+  /* margin-top: 100px; */
+}
+
+/* STYLE EXERCISE PARAGRPAH */
+#exercisePara {
+    text-align: center;
+  color: black;
+  font-family: 'Chilanka', cursive;
+  font-size: 20px;
+  background-color: #ddf0d7;
+}
+
+
+/* social media buttons */
+#socialMedia {
+  text-align: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-instagram {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+/* personality quiz */
+html {
+  scroll-behavior: smooth;
+}
+
+#q1a1 {
+  font-size: 20px;
+  color: #6D404B;
+ font-family: 'Chilanka', cursive;
+  font-weight: bolder;
+}
+
+#q1a2 {
+  font-size: 20px;
+  color: #6D404B;
+  font-family: 'Chilanka', cursive;
+  font-weight: bolder;
+}
+
+#q2a1 {
+  font-size: 20px;
+  color: #6D404B;
+  font-family: 'Chilanka', cursive;
+  font-weight: bolder;
+}
+
+#q2a2 {
+  font-size: 20px;
+  color: #6D404B;
+  font-family: 'Chilanka', cursive;
+  font-weight: bolder;
+}
+
+#q3a1 {
+  font-size: 20px;
+  color: #6D404B;
+ font-family: 'Chilanka', cursive;
+  font-weight: bolder;
+}
+
+#q3a2 {
+  font-size: 20px;
+  color: #6D404B;
+  font-family: 'Chilanka', cursive;
+  font-weight: bolder;
+}
+#q4a1 {
+  font-size: 20px;
+  color: #6D404B;
+  font-family: 'Chilanka', cursive;
+  font-weight: bolder;
+}
+#q4a2 {
+  font-size: 20px;
+  color: #6D404B;
+  font-family: 'Chilanka', cursive;
+  font-weight: bolder;
+}
+#q5a1 {
+  font-size: 20px;
+  color: #6D404B;
+  font-family: 'Chilanka', cursive;
+  font-weight: bolder;
+}
+#q5a2 {
+  font-size: 20px;
+  color: #6D404B;
+  font-family: 'Chilanka', cursive;
+  font-weight: bolder;
+}
+p {
+  font-size: 30px;
+  color: #6D404B;
+  font-family: 'Chilanka', cursive;
+  font-weight: bolder;
+}
+
+
+#result {
+  color: #C37D5B;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 2em;
+  font-family: 'Chilanka', cursive;
+  
+}
+
+#displayResult {
+  margin-top: 1.5em;
+  border-style: solid;
+  border-color: #72A3B4;
+  width: 300px;
+  height:50px ;
+  font-family: 'Chilanka', cursive;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bolder;
+}
+
+#restart {
+  border-style: solid;
+  border-color: #72A3B4;
+  width: 200px;
+  height:50px;
+  font-family: 'Chilanka', cursive;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bolder;
+}
+
+/* STYLE FLEX CONTAINER */
+.question {
+  display: flex;
+  margin-top: 2em;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+  
+/* STYLE FLEX ITEM */
+.answer-choice {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #C37D5B;
+  border-style: solid;
+  border-color: #C37D5B
+}
+
+/* STYLE IMAGES */
+.answer-choice img {
+  display: block;
+  height: 20em;
+  width: 20em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* STYLE BUTTON */
+.button { 
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  background-color: #90DCF5;
+  border-style: none;
+  font-size: 20px;
+  font-family: 'Chilanka', cursive;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #D36060;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: lightblue;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* STYLE MAILING LIST */
+.scriptQues {
+  background: #FAC748;
+  border-radius: 10px;
+
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 1.0em;
+  color: #0D38D3;
+}
+
+.scriptItem{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  margin-right: 10px;
+
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+input {
+  border-style: none;
+  border-radius: 5px;
+  width: 60%;
+}
+
+h4 {
+  margin-top: 1%;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+  color: #214127;
+  font-family: 'Chilanka', cursive;
+}
+
+#scriptIntro {
+  text-align: center;
+  font-family: 'Chilanka', cursive;
+  color: #214127;
+  font-size: 30px;
+}
+
