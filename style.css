@@ -154,6 +154,11 @@ h5 {
   /* margin-top: 100px; */
 }
 
+.flexBox {
+  flex-basis: 100%;
+  text-align: center;
+}
+
 /* STYLE EXERCISE PARAGRPAH */
 #exercisePara {
     text-align: center;
